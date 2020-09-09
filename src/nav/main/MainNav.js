@@ -10,7 +10,7 @@ const Stack = createStackNavigator()
 function MainNav(props) {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Home">
+      <Stack.Screen name="Gativan" >
         { screenProps => <Home {...screenProps} updateAuth={props.updateAuth} />}
       </Stack.Screen>
       <Stack.Screen name="Route2">
